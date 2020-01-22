@@ -6,3 +6,10 @@ I tried to find all supermarkets for each districts of Ankara but *Google API on
 
 Also you need to these packages to run this;   
 branca==0.3.1,certifi==2019.11.28,chardet==3.0.4,folium==0.10.1,idna==2.8,Jinja2==2.10.3,MarkupSafe==1.1.1,numpy==1.18.0,python-google-places==1.4.1,requests==2.22.0,six==1.13.0, and urllib3==1.25.7.
+
+
+locationfindings.py --> it finds supermarkets for a district,then it creates a csv file.
+
+map.py --> it shows all csv on colored map.
+
+then you should run ankaramap.html with google chrome.
