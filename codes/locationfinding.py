@@ -6,7 +6,7 @@ query_result_next_page = None
 invalid_requests_found = 0
 request_count = 0
 
-API_KEY = 'AIzaSyApIQdZa2kZxm5ipXew11oXpUBPeBOPa1Y'
+API_KEY = 'your key'
 google_places = GooglePlaces(API_KEY)   
 
 with open("Bala.csv", mode='w', newline='') as supermarketsFile:
